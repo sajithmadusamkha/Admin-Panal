@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Nova+Slim&display=swap');
+
+body, html {
+	line-height: 1.8;
+    font-family: 'Roboto', sans-serif;
+     color: #555e58;
+	 text-transform:capitalize;
+	text-rendering: optimizeLegibility !important;
+	-webkit-font-smoothing: antialiased !important;
+	 font-weight: 400;
+	 margin:0px;
+     padding:0px;
+}
