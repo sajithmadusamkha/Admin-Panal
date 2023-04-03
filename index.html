@@ -390,7 +390,7 @@
                   </div>
                 </div>
                 <div class="card-content">
-                  <p class="category"><strong>Followers</strong></p>
+                  <p class="category"><strong>Users</strong></p>
                   <h3 class="card-title">+245</h3>
                 </div>
                 <div class="card-footer">
@@ -407,7 +407,7 @@
               <div class="card" style="min-height: 485px">
                 <div class="card-header card-header-text">
                   <h4 class="card-title">Employees Stats</h4>
-                  <p class="category">New employees on 15th December, 2016</p>
+                  <p class="category">New employees on 22th December, 2022</p>
                 </div>
                 <div class="card-content table-responsive">
                   <table class="table table-hover">
@@ -531,8 +531,9 @@
                 </div>
                 <div class="col-md-6">
                   <p class="copyright d-flex justify-content-end">
-                    &copy 2023 Design by
-                    <a href="#">Sajith Madusankha</a> BootStrap Admin Dashboard
+                    &copy 2023 Design by&nbsp
+                    <a href="#"> Sajith Madusankha</a> &nbspBootStrap Admin
+                    Dashboard
                   </p>
                 </div>
               </div>
@@ -545,5 +546,17 @@
     <script src="assets/js/jquery-3.6.1.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#sidebarCollapse").on("click", function () {
+          $("#sidebar").toggleClass("active");
+          $("#content").toggleClass("active");
+        });
+
+        $(".more-button,.body-overlay").on("click", function () {
+          $("#sidebar,.body-overlay").toggleClass("show-nav");
+        });
+      });
+    </script>
   </body>
 </html>
